@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Raleway",Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgb(254, 227, 250);
+}
+
+/*ESTILOS DO BANNER*/
+.banner{
+  background: url("../IMG/banner-code.jpg") center no-repeat;
+  background-size: cover;
+  height: 90vh;
+  text-align: center;
+  padding: 5rem;
+  color: rgb(235, 170, 229);
+}
+
+.container{
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+.banner__titulo{
+  font-size: 4.5rem;
+}
+
+.banner__subtitulo{
+  font-size: 2.3rem;
+}
+
+.u-margin-bottom-peq{
+  margin-bottom: 2rem;
+}
+
+.btn-branco{
+  color: white ;
+  background-color:#7E459B;
+}
+
+.btn{
+  border-radius: 3rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*SEÇÃO SOBRE*/
+
+.sobre__div{
+  margin: 5rem;
+  margin-top: 5rem;
+}
+
+.sobre__titulo{
+  font-size: 3.5rem;
+  color: #7E459B;
+}
+
+.sobre__descricao-div{
+  width: 50%;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+.sobre__descricao-texto{
+  font-size: 1.2rem;
+}
+
+.sobre__descricao-destaque{
+  font-size: 1.9rem;
+}
+
+.sobre__habilidades-div{
+  display: inline-block;
+  margin-left: 10rem;
+}
+
+.sobre__habilidades-titulo{
+  font-size: 2rem;
+}
+
+.sobre__habilidades-lista{
+  padding-left: 2rem;
+  line-height: 2;
+  font-size: 1.6rem;
+}
+
+.btn-roxo{
+  color: #7E459B;
+  border: 1px solid #7E459B;
+}
+
+ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+/* SEÇÃO REDES SOCIAIS*/
+
+.footer{
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.redes__sociais-item{
+  display: inline-block;
+  width: 20%;
+  background-color: #7E459B;
+  padding: 2rem 0;
+  margin: 0 1rem;
+  text-align: center;
+  color: white;
+}
+
+.redes__sociais-img{
+  margin-bottom: 0.5rem;
+}
+
+h3{
+  font-size: 2.5rem;
+}
